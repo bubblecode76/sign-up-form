@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(resources/helvetica.ttf);
+}
+
+body{
+    margin: 0px;
+    border: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/sky.jpg);
+    background-repeat: no-repeat;
+}
+
+img{
+    width: 340px;
+    height: 500px;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+/*#form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+#photo-form{
+    display: flex;
+    
+}
+#header{
+    margin: auto 20px;
+    display: flex;
+    font-family: Helvetica;
+    font-size: large;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    gap: 50px;
+}
