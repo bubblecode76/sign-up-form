@@ -3,6 +3,11 @@
     src: url(resources/helvetica.ttf);
 }
 
+@font-face {
+    font-family: Georgia;
+    src: url('resources/Georgia.ttf');
+}
+
 body{
     margin: 0px;
     border: 0px;
@@ -12,7 +17,7 @@ body{
     background-repeat: no-repeat;
 }
 
-img{
+#img1{
     width: 340px;
     height: 500px;
     /*display: block;
@@ -20,14 +25,15 @@ img{
     margin-right: auto;*/
 }
 
-/*#form{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}*/
+#form{
+    margin-top: 150px;
+    margin-right: 50px;
+}
 
 #photo-form{
     display: flex;
+    justify-content: center;
+    
     
 }
 #header{
@@ -44,4 +50,37 @@ ul{
     list-style-type: none;
     margin-left: auto;
     gap: 50px;
+}
+
+label{
+    font-family: Helvetica;
+}
+
+input{
+    font-family: Helvetica;
+}
+
+form{
+    display: flex;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.sec-1{
+    margin-left: 20px;
+}
+
+.heading{
+    font-family: Helvetica;
+    margin-top: 15px;
+    font-size: 30px;
+    /*font-weight: 400;*/
+}
+
+fieldset{
+    
+        margin-top: 70px;
+        border: 1px solid black;
+        border-radius: 25px;
+     
 }
